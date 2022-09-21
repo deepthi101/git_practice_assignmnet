@@ -1,5 +1,6 @@
-let str="shivam";
 
+let str="*Deepthi*";
+​
 function reverse(string){
 let bag="";
 for(let i=string.length-1;i>=0;i--){
@@ -9,6 +10,7 @@ return bag;
 }
 let rev_str=reverse(str);
 if(str==rev_str){
-console.log("palindrome");
+console.log(str,"is a palindrome");
 }else{
-console.log("NA");
+console.log(str,"is not n palindrome");
+}
